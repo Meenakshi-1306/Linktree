@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #3f013c, #f8832a); /* Vibrant gradient background */
+    color: #fdfdfb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 40px; /* Increased padding */
+    width: 90%; /* Responsive width */
+    max-width: 400px; /* Max width */
+    backdrop-filter: blur(10px); /* Blur effect for the background */
+    border-radius: 20px; /* Rounded corners for the container */
+}
+
+h1 {
+    font-size: 1.7em; /* Increased font size */
+    margin: 0;
+}
+
+
+
+.links {
+    margin: 20px 0;
+}
+
+.links a {
+    display: inline-block;
+    padding: 15px 20px; /* Increased padding */
+    margin: 10px; /* Margin for spacing */
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    color: #333;
+    border-radius: 100px; /* Rounded rectangle shape */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+    font-size: 1.2em; /* Increased font size */
+    width: calc(100% - 40px); /* Full width minus margins */
+}
+
+.links a:hover {
+    background-color: rgba(255, 255, 255, 1); /* Full opacity on hover */
+    transform: translateY(-3px); /* Move link up on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
