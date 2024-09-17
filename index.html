@@ -1,98 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Manicka Meenakshi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connect</title>
-    <link rel="icon" href="assets/download.png">
-    <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            font-family: 'Arial', sans-serif;
-        }
-        body {
-            background-color: #15021d;
-            color: #fff;
-            overflow: hidden;
-        }
-        .background-image {
-            background-image: url("assets/moon-stars-purple-3840x2160-11331.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding-top: 50px;
-            overflow: hidden;
-            position: relative;
-        }
-        .logo {
-            width: 150px;
-            height: auto;
-            margin-bottom: 20px;
-            opacity: 0;
-            animation: fadeIn 2s ease forwards;
-        }
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-        .logo:hover {
-            transform: rotate(360deg);
-            transition: transform 0.5s ease;
-        }
-        .email-link {
-            background-color: rgba(65, 3, 46, 0.8);
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-            margin: 10px;
-            display: flex;
-            align-items: center;
-            overflow: hidden;
-            position: relative;
-            font-family: 'Verdana', sans-serif;
-        }
-        .email-link:hover {
-            background-color: rgba(73, 7, 40, 0.8);
-        }
-        .email-link img {
-            margin-right: 10px;
-            transition: transform 0.3s ease;
-        }
-        .email-link:hover img {
-            transform: scale(1.2);
-        }
-        h2 {
-            margin-bottom: 20px;
-            opacity: 0;
-            animation: fadeIn 2s ease forwards;
-            font-family: 'Tahoma', sans-serif; /* Change font family to Tahoma */
-        }
-    </style>
+    <title>Link Tree</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background-image">
-       
-        <h2>MANICKA MEENAKSHI SOMU</h2>
-        <a href="mailto:meenakshilallithaoffcl@gmail.com" class="email-link"> E-MAIL</a>
-        <a href="https://github.com/Meenakshi-1306" class="email-link">GITHUB</a>
-        <a href="https://linkedin.com/in/manicka-meenakshi-somu-a447102a0" class="email-link">LINKEDIN</a>
-
-         
+    <div class="container">
+        <h1>MANICKA MEENAKSHI SOMU</h1>
+        
+        <div class="links">
+            <a href="https://github.com/Meenakshi-1306" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/manicka-meenakshi-somu-6481852a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>
+            <a href="https://www.hackerrank.com/profile/meenakshisomu05" target="_blank">Hackerrank</a>
+            <a href="mailto:meenakshilallithaoffcl@gmail.com" target="_blank">E-Mail</a>
+            <a href="https://www.instagram.com/meenakshi_lalli1306/" target="_blank">Instagram</a>
+        </div>
+        
     </div>
+    <script src="scipt.js"></script>
 </body>
 </html>
